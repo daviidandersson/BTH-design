@@ -1,9 +1,10 @@
 ---
-Title: Home
+Title: Hem
 Description: This is our index page.
+icon: fas fa-home
 ---
 
-Home page
+Det här är jag!
 ==========================
 
 Hej! Jag heter David Andersson, jag är 23 år gammal. Jag är uppvuxen i Lindsdal strax utanför Kalmar. Där växte jag upp med min tvillingsyster. Det finns både för- och nackdelar med att har en tvillingsyster. På fritiden gillade jag att vara med mina vänner och spela fotboll och det gör jag än idag. Jag har alltid tyckt om att kolla på fotboll, mitt favoritlag är Chelsea Football Club som spelar i England.

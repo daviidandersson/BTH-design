@@ -1,6 +1,7 @@
 ---
-Title: Report
+Title: Redovisning
 Description: The course report page
+icon: fas fa-folder
 ---
 
 Redovisningssida för design

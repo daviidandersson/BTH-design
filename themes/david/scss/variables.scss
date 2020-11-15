@@ -1,0 +1,11 @@
+$font-size: 1.2em;
+$line: 1.4;
+$magic-number: $font-size * $line;
+$black: #000 !default;
+$box-shadow: 1em 1em 1em rgba($black, 0.2) !default;
+$hover: #00f;
+
+@function invert($color, $amount: 100%) {
+    $inverse: change-color($color, $hue: hue($color) + 200);
+    @return mix($inverse, $color, $amount);
+}

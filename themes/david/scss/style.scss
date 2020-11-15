@@ -1,0 +1,26 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Roboto&display=swap');
+@import 'old';
+@import 'variables';
+@import 'typography';
+
+.nav a,
+.flash-img {
+    box-shadow: $box-shadow;
+}
+
+$primary-color: #e0ffff;
+
+.site-footer {
+    background-color: invert($primary-color, 100%);
+}
+
+.site-footer a:hover {
+    color: $hover;
+}
