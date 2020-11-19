@@ -1,0 +1,33 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    padding: 0 1em;
+    margin: 0 10%;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    grid-column: span 1;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    box-shadow: $box-shadow;
+    border-radius: 5%;
+}
+
+.kmom-box h2 {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}

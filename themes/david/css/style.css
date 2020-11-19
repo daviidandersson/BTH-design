@@ -6636,63 +6636,6 @@ body {
   font-size: 2rem;
 }
 
-/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
-@media (max-width: 767px) {
-  .main {
-    padding: 2em 0 1em;
-  }
-
-  .title, .logo {
-    padding: 2em 1.5em 2em 0;
-  }
-
-  .logo {
-    height: 8.8em;
-  }
-
-  .nav {
-    clear: both;
-    padding: 0;
-  }
-
-  .nav ul {
-    padding-bottom: 1em;
-  }
-
-  .nav ul li {
-    display: block;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .js .nav-toggle > * {
-    vertical-align: middle;
-  }
-
-  .site-footer p {
-    padding: 1em 0;
-  }
-
-  .site-footer .social {
-    padding: 0.5em 0 0.5em 1em;
-  }
-}
 /*** TYPOGRAPHY ***/
 html {
   font-size: 16px;
@@ -6831,24 +6774,6 @@ abbr {
   width: 100%;
 }
 
-@media (max-width: 767px) {
-  .image.xsmall {
-    width: 60%;
-  }
-
-  .image.small {
-    width: 80%;
-  }
-
-  .image.large, .image.xlarge {
-    width: 100%;
-  }
-
-  .image.float-left, .image.float-right {
-    float: none;
-    margin: 0 auto;
-  }
-}
 /*** TABLES ***/
 table {
   border-spacing: 0;
@@ -7030,6 +6955,19 @@ input::-moz-focus-inner, button::-moz-focus-inner {
   padding: 0;
 }
 
+.nav a,
+.flash-img {
+  box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.2);
+}
+
+.site-footer {
+  background-color: #ffeae0;
+}
+
+.site-footer a:hover {
+  color: #00f;
+}
+
 html {
   font-size: 100%;
 }
@@ -7053,15 +6991,174 @@ p {
   margin-bottom: 1.68em;
 }
 
-.nav a,
-.flash-img {
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+  margin: 0 10%;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  grid-column: span 1;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
   box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
 }
 
-.site-footer {
-  background-color: #ffeae0;
+.kmom-box h2 {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
 }
 
-.site-footer a:hover {
-  color: #00f;
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.report-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10%;
+}
+
+.report {
+  flex-basis: 0;
+  flex-grow: 5;
+  border-left: 1px solid #30c7ec;
+  padding-left: 1.96em;
+}
+
+.sidebar {
+  margin-top: 8rem;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.sidebar i {
+  color: #30c7ec;
+}
+
+.sidebar a h3 {
+  margin-bottom: 0.7em;
+  text-decoration: underline;
+}
+
+.sidebar a:hover {
+  color: #30c7ec;
+}
+
+.next-previous {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 2em 0 1em;
+  }
+
+  .title,
+.logo {
+    padding: 2em 1.5em 2em 0;
+  }
+
+  .logo {
+    height: 8.8em;
+  }
+
+  .nav {
+    clear: both;
+    padding: 0;
+  }
+
+  .nav ul {
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .js .nav-toggle > * {
+    vertical-align: middle;
+  }
+
+  .site-footer p {
+    padding: 1em 0;
+  }
+
+  .site-footer .social {
+    padding: 0.5em 0 0.5em 1em;
+  }
+
+  .image.xsmall {
+    width: 60%;
+  }
+
+  .image.small {
+    width: 80%;
+  }
+
+  .image.large,
+.image.xlarge {
+    width: 100%;
+  }
+
+  .image.float-left,
+.image.float-right {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .landingpage {
+    margin: 0 auto;
+  }
+
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 1;
+  }
+
+  .sidebar {
+    display: none !important;
+  }
+
+  .next-previous {
+    display: flex;
+    justify-content: center;
+  }
+
+  .next-previous i {
+    font-size: 2.5em;
+    margin: 1em;
+    color: #000;
+  }
 }

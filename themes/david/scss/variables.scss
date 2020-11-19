@@ -9,3 +9,18 @@ $hover: #00f;
     $inverse: change-color($color, $hue: hue($color) + 200);
     @return mix($inverse, $color, $amount);
 }
+
+.nav a,
+.flash-img {
+    box-shadow: $box-shadow;
+}
+
+$primary-color: #e0ffff;
+
+.site-footer {
+    background-color: invert($primary-color, 100%);
+}
+
+.site-footer a:hover {
+    color: $hover;
+}
