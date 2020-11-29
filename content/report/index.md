@@ -27,7 +27,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <h2><a href="report/kmom04">Kmom04</a></h2>
-    <p>Kommer inom kort!<a href="report/kmom04"><i class="fas fa-arrow-circle-right"></i></p></a>
+    <p>Mitt färgschema som jag har följt i mitt ljusa tema och även lite i mitt mörka tema. Det är ett triadiskt färgschema...<a href="report/kmom04"><i class="fas fa-arrow-circle-right"></i></p></a>
 </div>
 
 <div class="kmom-box">

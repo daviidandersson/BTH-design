@@ -1,0 +1,53 @@
+/*** BASIC LAYOUT: HEADER ***/
+
+.site-header {
+    background-image: url('../img/yellowstone-national-park.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    display: block;
+    height: 100%;
+    color: $font-alternative-color;
+    text-shadow: 1px 1px rgba(12, 12, 12);
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 4.8em;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+/* IE8 + IE9 clearfix */
+
+.site-header>.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}

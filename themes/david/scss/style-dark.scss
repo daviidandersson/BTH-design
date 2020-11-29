@@ -1,5 +1,5 @@
 @import 'common';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 @import 'header';
@@ -7,6 +7,7 @@
 @import 'footer';
 @import 'report';
 @import 'kmom';
+
 
 * {
     box-sizing: border-box;
@@ -42,6 +43,10 @@ body {
     flex: 0 0 auto;
 }
 
+.site-header {
+    filter: grayscale(70%);
+}
+
 .container {
     max-width: 48em;
     padding: 0 0.5em;
@@ -56,6 +61,10 @@ body {
 
 .main .container {
     overflow-x: auto;
+}
+
+.me {
+    filter: grayscale(70%);
 }
 
 @import 'responsiveness';

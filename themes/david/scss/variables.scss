@@ -3,24 +3,15 @@ $line: 1.4;
 $magic-number: $font-size * $line;
 $black: #000 !default;
 $box-shadow: 1em 1em 1em rgba($black, 0.2) !default;
-$hover: #00f;
-
-@function invert($color, $amount: 100%) {
-    $inverse: change-color($color, $hue: hue($color) + 200);
-    @return mix($inverse, $color, $amount);
-}
+$hover: #94ffff;
+$background-color: rgb(240, 240, 240);
+$background-alternative-color: rgba(250, 250, 250);
+$accent-color: #042c4f;
+$font-color: #000;
+$font-alternative-color: rgb(18, 18, 18);
+$sidebar-font-color: #4b4f08;
 
 .nav a,
 .flash-img {
     box-shadow: $box-shadow;
-}
-
-$primary-color: #e0ffff;
-
-.site-footer {
-    background-color: invert($primary-color, 100%);
-}
-
-.site-footer a:hover {
-    color: $hover;
 }
