@@ -18,9 +18,9 @@
     {% endif %}
 
     {% if config.session.theme == "dark" %}
-        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
-        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
     {% endif %}
 
 </head>
@@ -51,8 +51,9 @@
                                 <a href="{{ page.url }}">
                                     {% if page.meta.icon %}
                                         <i class="{{ page.meta.icon }}"></i>
+                                    {% else %}
+                                        {{ page.title }}
                                     {% endif %}
-                                    {{ page.title }}
                                 </a>
                             </li>
                         {% endfor %}

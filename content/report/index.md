@@ -1,7 +1,6 @@
 ---
 Title: Redovisning
 Description: The course report page
-icon: fas fa-folder
 Template: report
 ---
 
@@ -32,7 +31,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <h2><a href="report/kmom05">Kmom05</a></h2>
-    <p>Kommer inom kort!<a href="report/kmom05"><i class="fas fa-arrow-circle-right"></i></p></a>
+    <p>Jag tycker att Cimage är lätt att använda och den hart en rad funktioner som jag kan se behövas i många sammanhang...<a href="report/kmom05"><i class="fas fa-arrow-circle-right"></i></p></a>
 </div>
 
 <div class="kmom-box">

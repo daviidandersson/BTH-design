@@ -1,7 +1,6 @@
 ---
 Title: Om
 Description: This is our about page.
-icon: fas fa-cog
 ---
 
 Om Sidan
