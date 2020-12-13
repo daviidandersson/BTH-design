@@ -1,7 +1,6 @@
 ---
 Title: Hem
 Description: This is our index page.
-icon: fas fa-home
 ---
 
 Det här är jag!
@@ -15,4 +14,4 @@ Jag har alltid varit intresserad av teknik av allt sorts teknik, jag började Te
 
 Har det bra!!
 
-<img class="me" src="assets/img/David.jpg" alt="En bild på mig">
+<img class="me" src="assets/img/David.jpg?w=50%&q=30" alt="En bild på mig">

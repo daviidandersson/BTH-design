@@ -4,9 +4,9 @@ Description: Part 2
 Template: kmom
 ---
 <div class="sidebar">
-    <a href="01_colors"><h3>Färg</h3></a>
-    <a href="02_load"><h3>Laddningstid</h3></a>
-    <a href="03_design_principles"><h3>Designprinciper</h3></a>
+    <h2><a href="01_colors">Färg</a></h2>
+    <h2><a href="02_load">Laddningstid</a></h2>
+    <h2><a href="03_design_principles">Designprinciper</a></h2>
 </div>
 
 
@@ -27,13 +27,15 @@ Template: kmom
     <p>Jag använde mig utav webbläsaren Firefox och deras Devtools och i Devtools finns det en katergori som heter Networks som jag använder för min mätning på webbsidorna. När jag ska analysera så tog jag bort all cache för att vara säker att jag få rätt resultat av mätningen. Jag har också använt hemsidan PageSpeed Insights för att betygsätta webbsidorna både på mobile och desktop. Jag valde att analysera respektive startsida och en undersida för att jämföra hur mycket skillnad det skulle bli på mätningarna.</p>
 
     <h2>Resultat</h2>
-    <h4><a href="https://docs.google.com/spreadsheets/d/1ppPi83Qxjs3hDbG8ljgZxtqBKXCsn7sHdYlZcmrA-4s/edit#gid=0">Här är excelarket</a></h4>
+    <h3><a href="https://docs.google.com/spreadsheets/d/1ppPi83Qxjs3hDbG8ljgZxtqBKXCsn7sHdYlZcmrA-4s/edit#gid=0">Här är excelarket</a></h3>
     <h3>Youtube</h3>
     <img class="images" src="../assets/img/youtube.png" alt="Youtube">
     <br>
     <br>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.youtube.com%2F&tab=desktop">PageSpeed Insights Yotube startsida</a></li>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FJonOlssonVideoBlog&tab=mobile">PageSpeed Insights Youtbe Jon Olssons sida</a></li>
+    <ul>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.youtube.com%2F&tab=desktop">PageSpeed Insights Yotube startsida</a></li>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FJonOlssonVideoBlog&tab=mobile">PageSpeed Insights Youtbe Jon Olssons sida</a></li>
+    </ul>
     <br>
     <br>
     <p>Youtubes startsida fick på PageSpeed Insights betyget 27 av 100 på desktop och på mobile fick Youtube betyget 38 av 100. Laddningstidens medelvärde blev 4,76 sekunder med 107 requests. Den totala storleken blev 11,74 MB och den totala storleken överförd blev 4,02 MB.</p>
@@ -44,8 +46,10 @@ Template: kmom
     <img class="images" src="../assets/img/twitter.png" alt="Twitter">
     <br>
     <br>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftwitter.com%2F&tab=desktop">PageSpeed Insights Twitters startsida utloggning</a></li>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftwitter.com%2Fhome&tab=desktop">PageSpeed Insights Twitters  startsida inloggning</a></li>
+    <ul>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftwitter.com%2F&tab=desktop">PageSpeed Insights Twitters startsida utloggning</a></li>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftwitter.com%2Fhome&tab=desktop">PageSpeed Insights Twitters  startsida inloggning</a></li>
+    </ul>
     <br>
     <br>
     <p>Jag körde PageSpeed Insights när jag var utloggad från Twitter för att mäta laddningstiden där och jämföra det när jag är inloggad på Twitter. Så när jag var utloggad fick Twitter på PageSpeed Insights betyget 96 av 100 på desktop medans på mobile fick Twitter betyget 73 av 100. Webbsidans medelvärde på laddningstid blev 1,66 sekunder med 23 requests. Den totala storleken blev 3,29 MB och den totala storleken överförd blev 935,89 kB.</p>
@@ -56,8 +60,10 @@ Template: kmom
     <img class="images" src="../assets/img/instagram.png" alt="Instagram">
     <br>
     <br>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.instagram.com%2F&tab=desktop">PageSpeed Insights Instagrams startsida utloggning</a></li>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.instagram.com%2F&tab=mobile">PageSpeed Insights Instagrams startsida inloggning</a></li>
+    <ul>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.instagram.com%2F&tab=desktop">PageSpeed Insights Instagrams startsida utloggning</a></li>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.instagram.com%2F&tab=mobile">PageSpeed Insights Instagrams startsida inloggning</a></li>
+    </ul>
     <br>
     <br>
     <p>Jag gjorde likadant med Instagram såsom Twitter att jag kollade först på Instagram när jag var utloggad och sedan när jag var inloggad. När jag var utloggad fick Instagram på PageSpeed Insights betyget 82 av 100 på desktop medans på mobile fick Instagram betyget 44 av 100. Webbsidans medelvärde på laddningstid blev 1,71 sekunder med 36 requests. Den totala storleken blev 4,01 MB och den totala storleken överförd blev 1,2 MB.</p>
@@ -91,21 +97,22 @@ Template: kmom
     <p>Jag anser att Twitter är vinnaren i denna analys eftersom deras laddningstid var mycket bättre än vad både Youtube och Instagram hade. Deras laddningstid är mer än hälften än dem andra så det var inte ett svårt beslut. Twitter fick även också bäst betyg av dem alla. Instagram skulle jag säga är medelmåttiga dem är inte för dåliga men dem har en bra bit upp till Twitter. Medans Youtube kom sist och på båda och det är jag besviken på trodde att dem skulle vara bättre. Men det är nog för att man få se så många videoklipp som gör att laddningstiden bli dålig. Jag anser att den maximala laddningstiden bör ligga runt 2 sekunder och den webbsidan som klara mitt gränsvärde är bara Twitter. Instagram är acceptabel men Youtube måste bli bättre anser jag.</p>
 
     <h2>Referenser</h2>
-    <li><a href="https://developer.mozilla.org/sv-SE/docs/Tools">Firefox devtools</a></li>
-    <li><a href="https://www.instagram.com/">Instagram</a></li>
-    <li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></li>
-    <li><a href="https://twitter.com/">Twitter</a></li>
-    <li><a href="https://www.youtube.com/">Youtbe</a></li>
-    <li><a href="https://www.youtube.com/user/JonOlssonVideoBlog">Youtbe Jon Olsson</a></li>
-
+    <ol>
+        <li><a href="https://developer.mozilla.org/sv-SE/docs/Tools">Firefox devtools</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://www.youtube.com/">Youtbe</a></li>
+        <li><a href="https://www.youtube.com/user/JonOlssonVideoBlog">Youtbe Jon Olsson</a></li>
+    </ol>
     <br>
     <h2>Övrigt</h2>
 
     <p>Denna analys är skriven av David Andersson</p>
 
     <div class="next-previous">
-        <a href="kmom10"><i class="fas fa-chevron-left"></i></a>
+        <a href="01_colors" aria-label="01_colors"><i class="fas fa-chevron-left"></i></a>
         <br>
-        <a href="kmom02"><i class="fas fa-chevron-right"></i></a>
+        <a href="03_design_principles" aria-label="03_design_principles"><i class="fas fa-chevron-right"></i></a>
     </div>
 </div>

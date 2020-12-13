@@ -4,13 +4,13 @@ Description: Part 1
 Template: kmom
 ---
 <div class="sidebar">
-    <a href="01_colors"><h3>Färg</h3></a>
-    <a href="02_load"><h3>Laddningstid</h3></a>
-    <a href="03_design_principles"><h3>Designprinciper</h3></a>
+    <h2><a href="01_colors">Färg</a></h2>
+    <h2><a href="02_load">Laddningstid</a></h2>
+    <h2><a href="03_design_principles">Designprinciper</a></h2>
 </div>
 
 <div class="report">
-    <h2>Analys om färger och fonter</h2>
+    <h1>Analys om färger och fonter</h1>
 
     <p>Denna rapport syftar till att beskriva kvalitativa analyser och utvärderingar av färg- och teckensnittsval för tre olika webbsidor.<p>
 
@@ -87,10 +87,12 @@ Template: kmom
     <p>Slutligen skulle jag säga att de tre webbplatser vill har en unik och egen design men den ska var modern för att få folk att gå in på deras respektive webbplats och för att stärka deras varumärkesidentitet.</p>
 
     <h2>Referenser</h2>
-    <h4>Webbplatser</h4>
-    <li><a href="https://www.mediamarkt.se/?ref=logo_rh">Media Markt</a></li>
-    <li><a href="https://www.elgiganten.se/">Elgiganten</a></li>
-    <li><a href="https://www.netonnet.se/">NetonNet</a></li>
+    <h3>Webbplatser</h3>
+    <ul>
+        <li><a href="https://www.mediamarkt.se/?ref=logo_rh">Media Markt</a></li>
+        <li><a href="https://www.elgiganten.se/">Elgiganten</a></li>
+        <li><a href="https://www.netonnet.se/">NetonNet</a></li>
+    </ul>
     <br>
     <h4>Källor</h4>
     Beaird, J., & George, J. (2014). The principles of beautiful web design, 3rd edition SitePoint.
@@ -100,8 +102,8 @@ Template: kmom
     <p>Denna rapport är skriven av David Andersson</p>
 
     <div class="next-previous">
-        <a href="kmom10"><i class="fas fa-chevron-left"></i></a>
+        <a href="03_design_principles" aria-label="03_design_principles"><i class="fas fa-chevron-left"></i></a>
         <br>
-        <a href="kmom02"><i class="fas fa-chevron-right"></i></a>
+        <a href="02_load" aria-label="02_load"><i class="fas fa-chevron-right"></i></a>
     </div>
 </div>

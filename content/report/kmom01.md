@@ -5,13 +5,13 @@ Template: kmom
 ---
 
 <div class="sidebar">
-    <a href="kmom01"><h3>Kmom01</h3></a>
-    <a href="kmom02"><h3>Kmom02</h3></a>
-    <a href="kmom03"><h3>Kmom03</h3></a>
-    <a href="kmom04"><h3>Kmom04</h3></a>
-    <a href="kmom05"><h3>Kmom05</h3></a>
-    <a href="kmom06"><h3>Kmom06</h3></a>
-    <a href="kmom10"><h3>Kmom10/Projekt</h3></a>
+    <h2><a href="kmom01">Kmom01</a></h2>
+    <h2><a href="kmom02">Kmom02</a></h2>
+    <h2><a href="kmom03">Kmom03</a></h2>
+    <h2><a href="kmom04">Kmom04</a></h2>
+    <h2><a href="kmom05">Kmom05</a></h2>
+    <h2><a href="kmom06">Kmom06</a></h2>
+    <h2><a href="kmom10">Projekt</a></h2>
 </div>
 
 <div class="report">
@@ -38,8 +38,8 @@ Template: kmom
     <p>Mitt TIL för detta kursmoment skulle nog behöva säga allt faktiskt. Som jag skrev innan så har jag inte användt mig av dem nya teknikerna sen tidigare. Det är helt nytt för mig. Till exempel hur kodningen ser ut, vad twig är för något. Hur man skapa ett tema. Hur man lägger upp saker på Github. Vad pico är för något hur man använder det. Som sagt det är mycket TIL för detta kmom.</p>
 
     <div class="next-previous">
-        <a href="kmom10"><i class="fas fa-chevron-left"></i></a>
+        <a href="kmom10" aria-label="kmom10"><i class="fas fa-chevron-left"></i></a>
         <br>
-        <a href="kmom02"><i class="fas fa-chevron-right"></i></a>
+        <a href="kmom02" aria-label="kmom02"><i class="fas fa-chevron-right"></i></a>
     </div>
 </div>

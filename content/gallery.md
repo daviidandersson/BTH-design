@@ -1,7 +1,6 @@
 ---
 Title: Gallery
 Description: My gallery page.
-icon: fas fa-camera-retro
 Template: gallery
 images:
     - alt: building
