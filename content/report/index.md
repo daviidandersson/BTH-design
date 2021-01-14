@@ -41,5 +41,5 @@ Redovisningssida för design
 
 <div class="kmom-box project">
     <h2><a href="report/kmom10">Kmom10</a></h2>
-    <p>Kommer inom kort!<a href="report/kmom10" aria-label="kmom10"><i class="fas fa-arrow-circle-right"></i></p></a>
+    <p>Jag började med att börja ifrån grunden med en helt ny installation från example/portfolio....<a href="report/kmom10" aria-label="kmom10"><i class="fas fa-arrow-circle-right"></i></p></a>
 </div>
